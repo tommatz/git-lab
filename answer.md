@@ -3,6 +3,10 @@
 
 Answer 1: git version 2.28.0.windows.1
 
+
+
+
+
 Answer 2: diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -17,6 +21,11 @@ pull.rebase=false
 credential.helper=manager
 user.name=Tom Matz
 user.email=tm774119@ohio.edu
+
+
+
+
+
 
 Answer 3: usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
@@ -65,7 +74,108 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 
 
-Answer 4:
+
+
+
+
+
+Answer 4: On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        answer.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+
+
+Answer 5: On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   answer.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+
+
+
+
+Answer 6:
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answer.md
+
+
+
+
+
+
+Answer 7: On branch master
+nothing to commit, working tree clean
+
+
+
+
+
+
+Answer 8: commit 03c6fbd9ca6fc242fc7d0b7d7d6daecbae3fc871 (HEAD -> master)
+Author: Tom Matz <tm774119@ohio.edu>
+Date:   Wed Sep 2 16:40:50 2020 -0400
+
+    Initial commit
+
+
+
+
+Answer 9: On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+
+
+
+
+
+Answer 10: No, they are not the same
+
+
+
+Answer 11: I received an  error saying that my local copy didnt not reflect the copy on git hub.
+
+
+
+
+Answer 12: Yes, the edits I made on GitHub were reflected on my local copy.
+
+
+Answer 13: 
+    Directory: C:\Users\matzt\Desktop\cs2400
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/2/2020   5:08 PM                git-lab
+d-----         9/2/2020   5:14 PM                git-lab-2
+d-----        8/26/2020   4:16 PM                hw
+d-----        8/26/2020   5:05 PM                labs
 
 
 */
